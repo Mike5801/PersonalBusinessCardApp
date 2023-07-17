@@ -21,6 +21,9 @@ class MyApp extends StatelessWidget {
                 foregroundImage: AssetImage('images/FotoPerfil.jpeg'),
                 radius: 50.0,
               ),
+              const SizedBox(
+                height: 10.0,
+              ),
               const Text(
                 'Miguel Tang',
                 style: TextStyle(
